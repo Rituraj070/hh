@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    color: white;
+    margin-bottom: 60px;
+    font-size: 30px;
+}
+h1 span{
+    background: linear-gradient(90deg, #FD2323 0%, #FFFFFF 100%);
+
+
+}
+p{
+    color: white;
+    padding: 0 50px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+@media screen and (max-width:550px) {
+    h1{
+        font-size: 20px;
+    }
+    p{
+        padding: 0 20px;
+    }
+}
